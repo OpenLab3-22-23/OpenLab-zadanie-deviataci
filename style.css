@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fira+Sans&family=Roboto+Condensed&display=swap');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  /* line-height: 24px; */
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 1240px;
+  min-height: 100vh;
+}
+
+#webstranka {
+  width: 1240px;
+  height: 1754px;
+  margin: 2rem auto;
+  text-align: center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  height: 155px;
+}
+
+.nadpis-1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.nadpis-2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.nadpis-3 {
+  font-family: 'Grand Hotel', cursive;
+}
+
+.pismo-1 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.pismo-2 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.pismo-3 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.resume {
+  font-size: 7em;
+}
+
+.pozadie-1 {
+  background: url('pozadia/pozadie-1.png');
+}
+
+.pozadie-2 {
+  background: url('pozadia/pozadie-2.png');
+}
+
+.pozadie-3 {
+  background: url('pozadia/pozadie-3.png');
+}
+
+.pozadie-4 {
+  background: url('pozadia/pozadie-4.png');
+}
+
+.pozadie-5 {
+  background: url('pozadia/pozadie-5.png');
+}
+
+.farba-pozadia-1 {
+  background-color: #0F0A0A;
+}
+
+.farba-pozadia-2 {
+  background-color: #F5EFED;
+}
+
+.farba-pozadia-3 {
+  background-color: #2292A4;
+}
+
+.farba-pozadia-4 {
+  background-color: #BDBF09;
+}
+
+.farba-pozadia-5 {
+  background-color: #D96C06;
+}
+
+.vrchna-ciara {
+  z-index: 100;
+}
+
+.farba-pisma-1 {
+  color: rgba(255,255,255, 0.87);
+}
+
+.farba-pisma-2 {
+  color: rgba(0,0,0,0.87);
+}
+
+.farba-pisma-3 {
+  color: rgba(31, 225, 30, 0.87);
+}
+
+.farba-pisma-4 {
+  color: rgba(30, 128, 225, 0.87);
+}
+
+.farba-pisma-5 {
+  color: rgba(224, 30, 225, 0.87);
+}
+
+.farba-pisma-6 {
+  color: rgba(225, 127, 30, 0.87);
+}
+
+.osoba::before {
+  font: var(--fa-font-solid);
+  content: "\f007";
+  margin-right: 1em;
+}
+
+.skola-adresa::before {
+  font: var(--fa-font-solid);
+  content: "\f3c5";
+  margin-right: 1em;
+}
+
+.skola-email::before {
+  font: var(--fa-font-solid);
+  content: "\f0e0";
+  margin-right: 1em;
+}
+
+.skola-nazov::before {
+  font: var(--fa-font-solid);
+  content: "\f19d";
+  margin-right: 1em;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moje-info{
+  width: 100%;
+  padding: 0 6em;
+  height: 300px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.moje-udaje {
+  height: 250px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#konicky {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2em 6em;
+}
+
+#konicky ul {
+  padding: 0;
+}
+
+#konicky ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 1em;
+  background: rgba(150,20,220,0.7);
+  border-radius: 2em;
+}
+
+#vodorovna-ciara {
+  width: 1240px;
+  height: 320px;
+  position: absolute;
+  top: 200px;
+}
+
+#zvisla-ciara {
+  width: 320px;
+  height: 1754px;
+  position: absolute;
+  right: 120px;
+}
+
+aside {
+  width: 320px;
+  margin-top: 520px;
+  height: 1234px;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+aside section {
+  width: calc(320px - 4em);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  word-break: break-all;
+}
+
+aside section h3 {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+  font-size: 1.8em;
+}
+
+aside section p {
+  overflow-wrap: break-word;
+  font-size: 1.2em;
+}
+
+#obsah {
+  position: absolute;
+  width: 800px;
+  height: 1234px;
+  top: 520px;
+  left: 0;
+  box-sizing: border-box;
+  padding: 2rem;
+  text-align: left;
+}
+
+#obsah p {
+  font-size: 1.4em;
+  margin-left: 4em;
+}
+
+#obsah ul {
+  font-size: 1.4em;
+  list-style-type: none;
+  margin-left: 2em;
+}
+
+#obsah h3 {
+  font-size: 2em;
+}
+
+#obsah h3::before {
+  font: var(--fa-font-solid);
+  content: "\f061";
+  margin-right: 1em;
+}
+
+#moja-fotka {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  right: 155px;
+  top: 235px;
+  z-index: 120;
+}
+
+#moja-fotka img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
