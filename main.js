@@ -1,4 +1,5 @@
 import './style.css';
+import './xmojStyl.css';
 // Zvislá čiara a obľúbený učiteľ
 
 // KONIEC Zvislá čiara a obľúbený učiteľ
